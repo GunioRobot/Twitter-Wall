@@ -1,0 +1,96 @@
+<h2>Twitter Wall Documentation</h2>
+<p>
+<h3>About Twitter Wall</h3>
+TwitterWall is a simple, yet powerful PHP application powered by jQuery.
+<br/><br/>
+<strong>What is Twitter Wall?</strong>
+<p class='answer'>Twitter Wall is a real-time twitter search application, so, when someone updates a status that contains terms
+you're interested in, it will update the wall in real time. </p>
+
+<strong>What can I do with it?</strong>
+<p class='answer'>The things Twitter Wall can do are endless, I just tried to give you some examples:
+	<ul>
+	   <li>Expose what people are saying about you or your business directly on your site</li>
+	   <li>Promoting events</li>
+	   <li>Conferences</li>
+	   <li>Fallow trending topics</li>
+	   <li>Promoting Competitions</li>
+	   <li>... and more, just unleash your imagination</li>
+	</ul>
+</p>
+
+
+<h3>Features</h3>
+<ul>
+ <li>Twitter like search terms (#hashtag or simple string and more)</li>
+ <li>Fully AJAXed</li>
+ <li>Easily Styling - you can create your own theme in minutes or use existing ones</li>
+ <li>One code line installation</li>
+ <li>No mySQL</li>
+ <li>Scalable</li>
+ <li>Fully OOP</li>
+</ul>
+
+<div class='note'>TwitterWall comes with 3 themes I made and also there are the PSD files where needed.</div>
+</p>
+
+<hr/>
+
+<h2>System Requirements</h2>
+<ul>
+	<li>PHP 4 or 5</li>
+	<li>cURL (already enabled on most systems) <small>(if you don't have it installed fallow <a href="http://bit.ly/6WPzlb)">this installation guide</a></small></li>
+	<li>jQuery 1.3.2</li>
+</ul>
+
+<h2>Instalation</h2>
+<ol>
+	<li>Unzip the package you downloaded from Envato</li>
+	<li>From <strong>Deploy</strong> get the folder inside and place it in your porject folder.</li>
+	<li>
+		Now just refference the jQuery and TwitterWall plugin in your header. Like:
+		<div class='code'>&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js&quot;&gt;&lt;/script&gt;<br/>
+&lt;script src=&quot;path/to/twitterwall/jquery.twitterwall.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</div>
+<small>Remember to keep the order, first jQuery library then the plugin, else, won't work</small>
+	</li>
+	
+	<li>In your template, choose an area where do you want to place the TwitterWall, to do so, place a <strong>div</strong> like:
+		<div class='code'>
+			&lt;div id='twitterwall'&gt;<br/>
+					<em>here will appear the twits</em><br/>
+			&lt;/div&gt;<br/>
+		</div>
+		<strong>Also, give a easy to remember and to understand id or class to the div, we will use it later on.</strong>
+		
+	</li>
+	
+	<li>
+		Initiate the plugin by adding the fallowing script into your header.
+		<div class='code'>
+					&lt;script type=&quot;text/javascript&quot;&gt;<br/>
+			$(document).ready(function(){<br/>
+				<strong>$('#twitterWall').twitterWall({hashtag: '#Graffiti', interval: 5000});</strong><br/>
+			});<br/>
+		&lt;/script&gt;
+		</div>
+		We are selecting the div we defined earlier, 'start' our plugin and tell that we want to search for #Twitter, at an interval of 5 seconds (5000 in miliseconds)
+	</li>
+	<li>Done, the twits should appear where they should :)</li>
+</ol>
+
+<div class="note">A list with the search operators you can use: <a href='http://search.twitter.com/operators'>Twitter Search Operators!</a></div>
+
+
+<h3>Advanced mode</h3>
+	<p class='answer'>If you want to use a style that came with the package, you just have to refference the style into your header. Please fallow.</p>
+<ol>
+	<li>The styles are in the themes folder.</li>
+	<li>Choose one theme, copy the entire folder (ex:<strong>twall-blue</strong>) where ever you want </li>
+	<li>Now, just refference the <em>twall-blue.css</em> file in your header.</li>
+</ol>
+<div class="note">If you are using one of the themes, remember to rename the target div <strong>twitterwall</strong> else the theme wont work</div>
+<div class="note">I've also included a theme skeleton, check Themes folder</div>
+
+<br />
+<br />
+<div class="note">If there's something that I've not covered, please feel free to contact me at any time</div>

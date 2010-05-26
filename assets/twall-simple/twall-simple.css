@@ -1,0 +1,52 @@
+/**
+*	The simplest style you can get :) ofcourse, it can get even more simpler,
+*	the container height is not specified, so all of the twits will apear.
+*
+*/
+
+*{ margin: 0px;padding: 0px; }
+
+body{
+	background:#fff ;
+}
+
+#twitterWall{
+	width: 600px;
+	height: 500px;
+	margin: 10px auto;
+}
+#twitterWall ul{}
+#twitterWall ul li{
+	list-style: none;
+}
+
+#twitterWall .twall-head{}
+#twitterWall .twall-tweets{
+	-moz-border-radius-bottomleft:8px;
+	-moz-border-radius-bottomright:8px;
+	-moz-border-radius-topleft:8px;
+	-moz-box-shadow:0 3px 0 #000000;	
+	-webkit-border-radius-bottomleft:8px;
+	-webkit-border-radius-bottomright:8px;
+	-webkit-border-radius-topleft:8px;
+	-webkit-box-shadow:0 3px 0 #000000;
+	border:1px solid #552255;
+	float:left;
+	margin:31px auto;
+	padding:17px;
+	width:83%;
+}
+	#twitterWall .twall-tweet{}
+	#twitterWall .twall-tweets h3 a{
+
+	}
+	#twitterWall .twall-dates{}
+#twitterWall .twall-avatars{
+	-moz-border-radius-bottomright:6px;
+	background:#111111 none repeat scroll 0 0;
+	float:right;
+	height:42px;
+	margin-top:31px;
+	padding:12px;
+	width:42px;
+}
