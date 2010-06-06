@@ -83,4 +83,7 @@ If you are using one of the themes, remember to rename the target div twitterwal
 I've also included a theme skeleton, check Themes folder
 
 
-If there's something that I've not covered, please feel free to contact me at any time
+If there's something that I've not covered, please feel free to contact me at any time.
+
+TODO:
+Remove all PHP code and integrate it just into one simple jQuery plugin.
