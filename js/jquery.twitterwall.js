@@ -60,7 +60,7 @@
 	
 	var sinceid = $('ul li:first', c).attr('since_id');
 		
-		/** $.ajax({ type: "GET",
+		$.ajax({ type: "GET",
 				 url: "/TwitterWall/twitterWall.php",
 				 data: "since_id="+sinceid+"&hashtag="+escape(options.hashtag),
 				 success: function(msg){	  	
@@ -69,12 +69,6 @@
 					   }
 
 					});
-					
-		**/
-		
-		// http://search.twitter.com/search.%s?q=%s&since_id=%s&rrp=%s
-		
-		
 		var sinceid = $('ul li:first', c).attr('since_id'); //updating the since id variable with the twitter id
 		
 	}, options.interval);

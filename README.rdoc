@@ -1,0 +1,60 @@
+== Twitter Wall Documentation<
+
+
+== About Twitter Wall
+TwitterWall is a simple jQuery plugin that searchs twitter for a given term at a given interval.
+
+
+== What can I do with it?
+The things Twitter Wall can do are endless, I just tried to give you some examples:
+
+   * Expose what people are saying about you or your business directly on your site
+   * Promoting events
+   * Conferences
+   * Fallow trending topics
+   * Promoting Competitions
+   * ... and more, just unleash your imagination
+
+
+
+== Features
+
+	To easy to be used
+
+
+TwitterWall comes with 3 themes with free PSD included.
+
+== System Requirements
+
+	jQuery 1.3.2 +
+
+== Instalation
+	
+* Initiate the plugin by adding the fallowing script into your header.
+
+	<script type="text/javascript"><br/>
+		$(document).ready(function(){<br/>
+			<strong>$('#twitterWall').twitterWall({hashtag: '#Graffiti', interval: 5000});
+		});
+	</script>
+
+* We are selecting the div we defined earlier, 'start' our plugin and tell that we want to search for #Twitter, at an interval of 5 seconds (5000 in miliseconds)
+* Done, the twits should appear where they should :)
+
+* A list with the search operators you can use: http://search.twitter.com/operators Twitter Search Operators!
+
+
+== Advanced mode
+*If you want to use a style that came with the package, you just have to refference the style into your header. Please fallow.
+The styles are in the themes folder.
+Choose one theme, copy the entire folder (ex:twall-blue) where ever you want 
+Now, just refference the twall-blue.css file in your header.
+	
+If you are using one of the themes, remember to rename the target div twitterwall else the theme wont work
+I've also included a theme skeleton, check Themes folder
+
+
+If there's something that I've not covered, please feel free to contact me at any time.
+
+TODO:
+* Remove all PHP code and integrate it just into one simple jQuery plugin.
