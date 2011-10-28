@@ -1,5 +1,5 @@
 /**
-*	This is a more complicated style of TwitterWall and demonstrates what 
+*	This is a more complicated style of TwitterWall and demonstrates what
 *   you can do with some lines of code and a little experience in Photoshop
 *   AUTHOR: Zimtea Robert
 */
@@ -19,12 +19,12 @@ body {
 		font-size: 10px;
 		width:393px;
 	}
-	
+
 			#twall-head{
 				background: url(images/lighto-sprint.png);
 				height: 21px;
 			}
-			
+
 				div#twall-hashtag{
 					color:#FFFFFF;
 					font-weight:bolder;
@@ -40,28 +40,28 @@ body {
 					margin-right:11px;
 					margin-top:3px;
 				}
-				
+
 				span#twall-controls a{
 					color:#FFFFFF;
 					text-decoration:none;
 					text-shadow:0 -1px 0 #000000;
 				}
-				
+
 	#twitterWall ul li{
 		background:transparent url(images/lighto-sprint.png) repeat scroll 0 -21px;
 		height:48px;
 		display: none;
 	}
-	
+
 	#twitterWall ul li:hover{
 		background-position: 0 -69px;
 	}
-	
+
 	#twitterWall ul{
 		height:527px;
 		overflow:hidden;
 	}
-				
+
 	div.twall-tweets{
 		float:left;
 		height:48px;
@@ -71,21 +71,21 @@ body {
 	div.twall-tweets:hover{
 
 	}
-	
+
 			div.twall-tweets h3{
 				margin-top:32px;
 				position:absolute;
 				right:50px;
 				text-align:right;
 			}
-	
+
 			p.twall-tweet{
 				float:left;
 				line-height:11px;
 				margin-left: 2px;
 			}
-			
-	
+
+
 			p.twall-dates{
 				position:relative;
 				right:84px;
@@ -93,7 +93,7 @@ body {
 				top:21px;
 				display: none;
 			}
-			
+
 			img.twall-avatars {
 				border:1px solid #FFFFFF;
 				float:right;
@@ -102,25 +102,25 @@ body {
 				top:6px;
 				width:36px;
 			}
-	
+
 	div.twall-tweets h3 a:link, div.twall-tweets h3 a:visited{
 			color:#000000;
 			font-size:10px;
 			text-decoration:none;
 			text-transform:uppercase;
 	}
-	
+
 	.twall-tweet a {
 
 	}
-	
+
 	#loading-tweets{
 		background: transparent url(images/loader.gif) no-repeat;
 		width: 128px;
 		height: 19px;
 		margin: 20px auto;
 	}
-	
+
 	h1 { font-size: 20px; line-height: 20px;}
 	ul, li, h4 {  margin: 0; padding: 0;list-style: none; }
 	.clear{ clear: both; }

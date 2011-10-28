@@ -2,7 +2,7 @@
 /**
   *  Author: Zimtea Robert
   *  Date: 5 December 2009
-  *	
+  *
 */
 
 /***************************** CONFIGURATION ******************/
@@ -36,7 +36,7 @@ if(!isset($_GET['hashtag'])){
 	//Twitter returns the result as JSON data, we need to decode it
 	$result = json_decode($result);
 
-	
+
 	if($result->results || !empty($result->results)){
 		//loop to each result and construct the tweet
 		//also, if you want to change the tags order, here are some vars that should be useful

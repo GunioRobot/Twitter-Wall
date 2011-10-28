@@ -1,5 +1,5 @@
 /**
-*	This is a more complicated style of TwitterWall and demonstrates what 
+*	This is a more complicated style of TwitterWall and demonstrates what
 *   you can do with some lines of code and a little experience in Photoshop
 *   AUTHOR: Zimtea Robert
 */
@@ -19,13 +19,13 @@ body {
 		font-size: 10px;
 		width:393px;
 	}
-	
+
 			#twall-head{
 				background: url(images/t-head.png) no-repeat;
 				width: 394px;
 				height: 63px;
 			}
-			
+
 				div#twall-hashtag{
 					color:#FFFFFF;
 					font-size:12px;
@@ -44,7 +44,7 @@ body {
 					text-transform:uppercase;
 					top:16px;
 				}
-				
+
 				span#twall-controls a{
 					color: #fff;
 					font-weight: bold;
@@ -52,24 +52,24 @@ body {
 					text-shadow: 0px -1px 0px #000;
 					font-size: 13px;
 				}
-				
+
 	#twitterWall ul li{
 		background:transparent url(images/t-bg.png) repeat scroll 0 0;
 		height:46px;
 		padding:21px 13px;
 		display: none;
 	}
-	
+
 	#twitterWall ul li:hover{
 		background-position: 0px -88px;
 		color: #B5B5B5;
 	}
-	
+
 	#twitterWall ul{
 		height:615px;
 		overflow:hidden;
 	}
-				
+
 	div.twall-tweets{
 		float: left;
 		width: 86%;
@@ -79,14 +79,14 @@ body {
 	div.twall-tweets:hover{
 		text-shadow: 0px -1px 0px #181818;
 	}
-	
+
 			p.twall-tweet{
 				height:14px;
 				margin-top:-10px;
 				position:relative;
 			}
-			
-	
+
+
 			p.twall-dates{
 				color:#666666;
 				float:left;
@@ -96,7 +96,7 @@ body {
 				text-shadow:0 1px 1px #000000;
 				top:1px;
 			}
-			
+
 			img.twall-avatars {
 				float: left;
 				border: 1px solid #7D7D7D;
@@ -104,26 +104,26 @@ body {
 				width: 42px;
 				margin: 2px;
 			}
-	
+
 	div.twall-tweets h3 a:link, div.twall-tweets h3 a:visited{
 		color: #81AFCD;
 		font-size:16px;
 		text-shadow: 0px 1px 0px #222;
 		text-decoration:none;
 	}
-	
+
 	.twall-tweet a {
 		text-decoration: none;
 		color: #292929;
 	}
-	
+
 	#loading-tweets{
 		background: transparent url(images/loader.gif);
 		width: 220px;
 		height: 19px;
 		margin: 20px auto;
 	}
-	
+
 	h1 { font-size: 20px; line-height: 20px;}
 	ul, li, h4 {  margin: 0; padding: 0;list-style: none; }
 	.clear{ clear: both; }

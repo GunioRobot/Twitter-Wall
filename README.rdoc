@@ -29,7 +29,7 @@ TwitterWall comes with 3 themes with free PSD included.
 	jQuery 1.3.2 +
 
 == Instalation
-	
+
 * Initiate the plugin by adding the fallowing script into your header.
 
 	<script type="text/javascript"><br/>
@@ -47,9 +47,9 @@ TwitterWall comes with 3 themes with free PSD included.
 == Advanced mode
 *If you want to use a style that came with the package, you just have to refference the style into your header. Please fallow.
 The styles are in the themes folder.
-Choose one theme, copy the entire folder (ex:twall-blue) where ever you want 
+Choose one theme, copy the entire folder (ex:twall-blue) where ever you want
 Now, just refference the twall-blue.css file in your header.
-	
+
 If you are using one of the themes, remember to rename the target div twitterwall else the theme wont work
 I've also included a theme skeleton, check Themes folder
 
